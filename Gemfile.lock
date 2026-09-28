@@ -177,6 +177,8 @@ GEM
     msgpack (1.8.0)
     multipart-post (2.4.1)
     mutex_m (0.2.0)
+    neighbor (1.2.0)
+      activerecord (>= 7.2)
     net-http (0.6.0)
       uri
     net-imap (0.5.8)
@@ -344,6 +346,7 @@ DEPENDENCIES
   kramdown-parser-gfm
   logger (~> 1.6)
   mutex_m (~> 0.2.0)
+  neighbor
   ostruct (~> 0.6.0)
   pg (~> 1.1)
   puma (~> 6.0)
